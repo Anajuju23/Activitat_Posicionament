@@ -1,0 +1,44 @@
+body { /*Posem el body amb margin i un padding de 0px per eliminar l'espaiat predeterminat */
+    margin: 0px;
+    padding: 0px;
+}
+
+header { /*Aliniem, posem el color de fons d'un color fosc i posem posicio fixa al header. Tambe un width per allargar-ho*/
+    text-align: center;
+    background-color:rgb(49, 65, 65);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+
+nav { /*Alinem el text i posem posicio sticky perque flotin davant del header i es veguin i ho baixem amb un top*/
+    text-align: center;
+    position: sticky;
+    top: 60px;
+}
+
+h1 { /*Cambiem el color de la lletra a blanc*/
+    color: white;
+}
+
+main { /*Ajustem amb el margin y el padding el bloc del main*/
+    margin: 75px 25px 75px 25px;
+    padding: 5px 25px 5px 25px;
+}
+
+.Section1, .Section2, .Section3 { /*Posem el fons d'un color clar, ajustar unamica el text amb el height, padding, margin-bottom i top*/
+    background-color: rgb(190, 190, 171);
+    height: 100px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+footer{ /*Per últim, aliniem text al centre, color de fons fosc com el header i color de la lletra blanc*/
+    text-align: center;
+    background-color:rgb(49, 65, 65);
+    color: rgb(190, 190, 171);
+
+}
